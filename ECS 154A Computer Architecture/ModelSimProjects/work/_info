@@ -1,0 +1,342 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.3/examples
+vadder
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1393320140
+!i10b 1
+!s100 kcJK0=n44D1i0:<ndb0Eg3
+If[7n4=amziYa2LVL9OfIO2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 !s105 alu_sv_unit
+S1
+Z4 dC:/Projects/ECS 154A Computer Architecture/ModelSimProjects
+Z5 w1393320134
+Z6 8C:/Projects/ECS 154A Computer Architecture/Homework3/alu.sv
+Z7 FC:/Projects/ECS 154A Computer Architecture/Homework3/alu.sv
+L0 11
+Z8 OP;L;10.3;59
+r1
+!s85 0
+31
+Z9 !s108 1393320140.431000
+Z10 !s107 C:/Projects/ECS 154A Computer Architecture/Homework3/alu.sv|
+Z11 !s90 -reportprogress|300|-nostats|-work|work|-sv|C:/Projects/ECS 154A Computer Architecture/Homework3/alu.sv|
+!s101 -O0
+Z12 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vALU
+R0
+R1
+!i10b 1
+!s100 :EMzH=JX:b0iX_6Lz>2Nd2
+IAPX1T0@@:iD0z^[06W8lj2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 24
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+R12
+n@a@l@u
+vCLA
+R0
+R1
+!i10b 1
+!s100 IfSBk:<a16An95>HD`K`K0
+ICHk_=l11XO:>bIA0<i8_e3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+R12
+n@c@l@a
+vcpu
+R0
+Z13 !s110 1393320807
+!i10b 1
+!s100 4=?S?3G6DbdUVYL]bR[j82
+IRVzT[iCf`OJTzXT@@f]382
+R2
+Z14 !s105 cpu_sv_unit
+S1
+R4
+Z15 w1393320803
+Z16 8C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv
+Z17 FC:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv
+L0 2
+R8
+r1
+!s85 0
+31
+Z18 !s108 1393320807.039000
+!s107 C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv|
+Z19 !s90 -reportprogress|300|-nostats|-work|work|-sv|C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv|
+!s101 -O0
+R12
+vDecoder
+R0
+R13
+!i10b 1
+!s100 @B[KKP8N>[MeLBVzY]D[k0
+I;SFF[:i]NSc@TDV>dn<fH1
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 32
+R8
+r1
+!s85 0
+31
+R18
+Z20 !s107 C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv|
+R19
+!s101 -O0
+R12
+n@decoder
+vMux8
+R0
+R13
+!i10b 1
+!s100 Y[=OSV]H^zX1OgYeGUTL^1
+I:lSg<<@4TPomjN3]icmJ=1
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 60
+R8
+r1
+!s85 0
+31
+R18
+R20
+R19
+!s101 -O0
+R12
+n@mux8
+vmux8
+R0
+!s110 1393291829
+!i10b 1
+!s100 n1<M38ehL=?:haTbHW_^f1
+IVPIFdQ@g<BmQ9NW7<5JCR1
+R2
+!s105 _1_sv_unit
+S1
+R4
+w1393285490
+8C:/Projects/ECS 154A Computer Architecture/Homework3/1.sv
+FC:/Projects/ECS 154A Computer Architecture/Homework3/1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1393291829.042000
+!s107 C:/Projects/ECS 154A Computer Architecture/Homework3/1.sv|
+!s90 -reportprogress|300|-nostats|-work|work|-sv|C:/Projects/ECS 154A Computer Architecture/Homework3/1.sv|
+!s101 -O0
+R12
+vPC
+R0
+R13
+!i10b 1
+!s100 B3bdn7?OF_87n^=hl81Oz0
+I8mDGWmN]HUZK47H0zm76<0
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 50
+R8
+r1
+!s85 0
+31
+R18
+R20
+R19
+!s101 -O0
+R12
+n@p@c
+vRAM_Test
+R0
+Z21 !s110 1393313113
+!i10b 1
+!s100 f?D:CEK>7Vj=Z0liK1[?81
+IbbfzcaSaaKBDhNV]I_1R01
+R2
+Z22 !s105 ram_sv_unit
+S1
+R4
+Z23 w1393313108
+Z24 8C:/Projects/ECS 154A Computer Architecture/Homework3/ram.sv
+Z25 FC:/Projects/ECS 154A Computer Architecture/Homework3/ram.sv
+L0 3
+R8
+r1
+!s85 0
+31
+Z26 !s108 1393313113.018000
+Z27 !s107 C:/Projects/ECS 154A Computer Architecture/Homework3/ram.sv|
+Z28 !s90 -reportprogress|300|-nostats|-work|work|-sv|C:/Projects/ECS 154A Computer Architecture/Homework3/ram.sv|
+!s101 -O0
+R12
+n@r@a@m_@test
+vRegister
+R0
+R13
+!i10b 1
+!s100 ZS7WCLOCa>`HL=Tnm5`ES2
+IniGhAG[<6eT=e`HPJN_Ez0
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 119
+R8
+r1
+!s85 0
+31
+R18
+R20
+R19
+!s101 -O0
+R12
+n@register
+vRegisterBank
+R0
+R13
+!i10b 1
+!s100 hzSd`Vz@iGE<YoiYRAZ==0
+IU406N8Xi8ML;OJeWUWhMB3
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 80
+R8
+r1
+!s85 0
+31
+R18
+R20
+R19
+!s101 -O0
+R12
+n@register@bank
+vtestbench
+R0
+!s110 1393291847
+!i10b 1
+!s100 A[3@h`BibR@[?^;:DhWBR2
+I=Gbf394>LSz]CX;KCICej0
+R2
+!s105 _1_testbench_sv_unit
+S1
+R4
+w1392387793
+8C:/Projects/ECS 154A Computer Architecture/Homework3/1_testbench.sv
+FC:/Projects/ECS 154A Computer Architecture/Homework3/1_testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1393291847.732000
+!s107 C:/Projects/ECS 154A Computer Architecture/Homework3/1_testbench.sv|
+!s90 -reportprogress|300|-nostats|-work|work|-sv|C:/Projects/ECS 154A Computer Architecture/Homework3/1_testbench.sv|
+!s101 -O0
+R12
+vtestbenchALU
+R0
+R21
+!i10b 1
+!s100 N3>9;zRoCZUDUQ7Ub7d^n3
+I3LMk3X6^c`7mAdONk0O6i1
+R2
+R22
+S1
+R4
+R23
+R24
+R25
+L0 65
+R8
+r1
+!s85 0
+31
+R26
+R27
+R28
+!s101 -O0
+R12
+ntestbench@a@l@u
+vtestbenchCLA
+R0
+R21
+!i10b 1
+!s100 [1m[]dTZ<5bLSf`o=h^ok3
+I0@9U<Za1M7J_H2kC>O;f12
+R2
+R22
+S1
+R4
+R23
+R24
+R25
+L0 96
+R8
+r1
+!s85 0
+31
+R26
+R27
+R28
+!s101 -O0
+R12
+ntestbench@c@l@a

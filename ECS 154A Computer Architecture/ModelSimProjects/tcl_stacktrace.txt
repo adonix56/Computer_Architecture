@@ -1,0 +1,22 @@
+Mon Feb 24 21:54:02 PST 2014
+Trace back: can't read "ProjectFiles(C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv)": no such element in array
+    while executing
+"llookup $ProjectFiles($filename) compile_order"
+    (procedure "Project::getCurrentCompilerOrder" line 31)
+    invoked from within
+"Project::getCurrentCompilerOrder 1"
+    (procedure "Project::areCompileFilesSelected" line 3)
+    invoked from within
+"Project::areCompileFilesSelected"
+    (procedure "Transcript::CompileMenuPostCmd" line 19)
+    invoked from within
+"Transcript::CompileMenuPostCmd  .mBar.compile"
+    ("eval" body line 1)
+    invoked from within
+"eval $post_cmd"
+    (procedure "::Vsimmenu::DefaultMenuPostCmd" line 41)
+    invoked from within
+"::Vsimmenu::DefaultMenuPostCmd .mBar.compile {Transcript::CompileMenuPostCmd  .mBar.compile} SetMenuState"
+    (menu preprocess)
+  <2:C:/Modeltech_pe_edu_10.3/win32pe_edu/tk8.5/bgerror.tcl:92: ::tkerror {can't read "ProjectFiles(C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "ProjectFiles(C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv)": no such element in array}

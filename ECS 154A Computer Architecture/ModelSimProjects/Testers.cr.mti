@@ -1,0 +1,33 @@
+{C:/Projects/ECS 154A Computer Architecture/Homework3/ram.sv} {1 {vlog -nostats -work work -sv {C:/Projects/ECS 154A Computer Architecture/Homework3/ram.sv}
+Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+-- Compiling module RAM_Test
+-- Compiling module testbenchALU
+-- Compiling module testbenchCLA
+
+Top level modules:
+	RAM_Test
+	testbenchALU
+	testbenchCLA
+
+} {} {}} {C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv} {1 {vlog -nostats -work work -sv {C:/Projects/ECS 154A Computer Architecture/Homework3/cpu.sv}
+Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+-- Compiling module cpu
+-- Compiling module Decoder
+-- Compiling module PC
+-- Compiling module Mux8
+-- Compiling module RegisterBank
+-- Compiling module Register
+
+Top level modules:
+	cpu
+
+} {} {}} {C:/Projects/ECS 154A Computer Architecture/Homework3/alu.sv} {1 {vlog -nostats -work work -sv {C:/Projects/ECS 154A Computer Architecture/Homework3/alu.sv}
+Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+-- Compiling module CLA
+-- Compiling module adder
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}
